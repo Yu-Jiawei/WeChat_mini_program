@@ -1,0 +1,29 @@
+/* component/bookcard.wxss */
+/* pages/clock/clock.wxss */
+.profile{
+
+}
+.profile image{
+  height: 400rpx;
+  width: 300rpx;
+}
+.name{
+  font-weight: bolder;  
+}
+.author{
+  font-size: 20rpx;
+}
+.score{
+  display: flex;
+}
+.score image{
+  width: 40rpx;
+  height: 40rpx;
+}
+.content{
+  margin: 5rpx;
+  width: 350rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

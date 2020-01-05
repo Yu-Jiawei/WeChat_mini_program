@@ -1,0 +1,9 @@
+<!--pages/aestheticism/aestheticism.wxml-->
+<view><image src='../../image/frist1.jpg'  mode="widthFit" class="img"></image>
+<text>\n</text>
+<text class="title">100条珍藏版唯美文艺好句，送给温柔的你</text>
+ <view class="divLine"></view>
+</view>
+ <view wx:for="{{notes}}"wx:for-item="item"wx:for-index="index"wx:key="index">
+     <itemCard item="{{item}}"></itemCard>
+   </view>

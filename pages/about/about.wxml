@@ -1,0 +1,22 @@
+<!--pages/about/about.wxml-->
+<view class="page">
+  <view class="profile">
+    <text class="title">更新日志</text>
+    <text>
+    version:1.0.0
+
+    1、实现图书推荐功能
+    2、实现阅读计时并可以自定义时间功能
+    3、美句分享，利用云开发实现点赞及收藏功能
+    4、项目已开源到github平台</text>
+  </view>
+  <view class="copy">
+    <button class="btn" bindtap="copyBtn">
+      <image class="btnima" src="../../image/git.png"></image>
+      <view>点击复制github链接</view>
+    </button>
+  </view>
+  <view class="ima" >
+    <image class="ima1" src="../../image/flower.jpg" style="opacity:{{0.7}}" mode="scaleToFill"></image>
+  </view>
+</view>

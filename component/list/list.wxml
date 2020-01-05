@@ -1,0 +1,10 @@
+<!--component/list/list.wxml-->  
+
+   <view class="diary" >
+   <text class="title">{{item.title}}</text>
+<text>{{item.content}}</text>
+<text>\n\n</text>
+<image style='width:100% ' src="{{item.src}}" class="imagesize" mode='widthFix' ></image>
+    </view>
+
+

@@ -1,0 +1,26 @@
+/* component/list/list.wxss */
+.diary {
+  margin-bottom: 10rpx;
+  font-size: 35rpx;
+  padding: 10rpx;
+  background: #fafafa;
+  color: rgb(80, 74, 74);
+  border-radius:10rpx; 
+}
+.title{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 60rpx;
+  margin-bottom: 30rpx;
+}
+page{
+   height:100%;
+
+}
+.imagesize{
+ display:flex;
+ height: 100%;
+ justify-content: center;
+ align-items:center;
+}

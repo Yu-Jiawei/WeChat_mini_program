@@ -1,0 +1,46 @@
+/* pages/about/about.wxss */
+.page{
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background-color: #f3f9f1;
+}
+.profile{
+  font-size: 35rpx;
+  margin: 20rpx;
+  padding: 10rpx;
+  border: 4px outset;
+  border-radius: 15rpx;
+  height: 400rpx;
+}
+.title{
+  font-size: 40rpx;
+  font-weight: bold;
+}
+.btn{
+  margin-top: 40rpx;
+  width: 80%;
+  border-radius: 30rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.btnima{
+  width: 60rpx;
+  height: 60rpx;
+}
+.bnt::after{
+  border-radius: 30rpx;
+  border: 0;
+}
+.btn2{
+  width: 100%;
+  background-color: #ff111a;
+}
+.ima1{
+  position: fixed;
+  height: 45%;
+  margin-top: 80rpx;
+  width: 100%;
+}

@@ -1,0 +1,14 @@
+<!--component/itemCard/itemCard.wxml-->
+  <view>   
+   <view class="diary" >
+   
+<text>{{item.content}}</text>
+    <text>\n\n</text>
+       <image class= "support" catchtap="handleSupport" src="{{support==true?'../../image/up.svg':'../../image/uup.svg'}}"></image><text>\t\t\t</text>
+       <image class= "favor" catchtap="handleFavor" src="{{favor==true?'../../image/love_t.svg':'../../image/love_f.svg'}}"></image>
+                 <view class='write'>
+                     <text >{{item.write}}</text>
+                 </view> 
+    </view>
+
+</view>

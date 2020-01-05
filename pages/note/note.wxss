@@ -1,0 +1,43 @@
+/**index.wxss**/
+.diary {
+  margin-bottom: 10px;
+  font-size: 30;
+  padding: 10px;
+  background: #fafafa;
+  color: rgb(80, 74, 74);
+  height: 270rpx;
+  border-radius:10rpx; 
+}
+
+.write {
+  font-size: 20px;
+  margin-top: 20px;
+  float: right;
+}
+.favor{
+   
+  width: 50rpx;
+  height: 50rpx;
+  border-radius: 40rpx;
+}
+.support{
+   width: 50rpx;
+  height: 50rpx;
+ border-radius: 150rpx;
+ 
+  
+}
+
+.swiperBanner{
+  width:100%;
+  height:420rpx !important;
+  margin:0 auto; 
+}
+.swiperBanner image{
+  width:100%;
+  height:420rpx !important;
+}
+swiper {
+  width:100%;
+  height:420rpx !important;
+}

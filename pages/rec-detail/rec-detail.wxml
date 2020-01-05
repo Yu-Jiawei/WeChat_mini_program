@@ -1,0 +1,18 @@
+<!--pages/home-detail/home-detail.wxml-->
+<view class="page">
+  <view class="content1">
+    <view class="title">《{{name}}》</view>
+    <view class="author"><text>--{{author}}</text></view>
+  </view>
+    <view class="pic">
+      <image src="{{src}}"></image>
+    </view>
+  <text class="intro_author">【作者简介】</text>
+  <view class="content2">
+    <text>{{intro_author}}</text>
+  </view>
+  <text class="book">【内容简介】</text>
+  <view class="content3">
+    <text>{{intro_book}}</text>
+  </view>
+</view>

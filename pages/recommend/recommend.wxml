@@ -1,0 +1,23 @@
+<!--pages/home/home.wxml-->
+<view class="page">
+  <view class="content">
+  <view class="roll">
+     <swiper indicator-dots='true' autoplay='true' indicator-active-color='#9d2933'>
+    <swiper-item>
+      <image  src="https://img3.doubanio.com/view/dale-online/dale_ad/public/67d58db1d666e25.jpg" mode="scaleToFill"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src='https://img3.doubanio.com/view/dale-online/dale_ad/public/67d58db1d666e25.jpg'mode="scaleToFill"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src='https://img3.doubanio.com/view/dale-online/dale_ad/public/67d58db1d666e25.jpg'mode="scaleToFill"></image>
+    </swiper-item>
+  </swiper>
+  </view>
+  <view class="book">
+    <view wx:for="{{books}}" wx:for-item="item" wx:for-index="index" wx:key="index">
+      <bookcard item="{{item}}"/>
+    </view>
+  </view>
+  </view>
+</view>

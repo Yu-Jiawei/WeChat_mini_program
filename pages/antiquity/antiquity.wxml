@@ -1,0 +1,10 @@
+<!--pages/antiquity/antiquity.wxml-->
+<view><image src= '../../image/second2.jpg' mode="aspectFill" class="img"></image>
+<text>\n</text>
+<text class="title">赠予你的100句古风文艺情话，请查收！</text>
+ <view class="divLine"></view>
+</view>
+ <view wx:for="{{notes}}"wx:for-item="item"wx:for-index="index"wx:key="index">
+     <itemCard item="{{item}}"></itemCard>
+   </view>
+

@@ -1,0 +1,40 @@
+/* pages/home-detail/home-detail.wxss */
+.page{
+  padding: 10rpx;
+  background-color: #ffffef;
+}
+.content1{
+  width: 100%;
+  height: 100rpx;
+
+}
+.pic{
+  width: 450rpx;
+  margin-top: 10rpx;
+  padding: 10rpx;
+  display: flex;
+  justify-content: center;
+}
+.pic image{
+  width: 420rpx;
+  float: left;
+  
+}
+.title{
+  text-align: center;
+  font-size: 50rpx;
+  font-weight: bolder
+}
+.author{
+  float:right;
+  font-size:35rpx;
+  font-weight: bolder;
+}
+.intro_author{
+  font-size: 40rpx;
+  font-weight: bolder;
+}
+.book{
+  font-size: 40rpx;
+  font-weight: bolder;
+}

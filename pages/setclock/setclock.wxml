@@ -1,0 +1,22 @@
+<view class="content">
+  <view class="title">阅读时长(分钟)</view>
+	<view class="setting">
+	    <slider 
+	    	bindchange="changeWorkTime" 
+	    	show-value="true" 
+	    	min="1"
+	    	max="60"
+        block-size="20"
+	    	value="{{workTime}}"
+        block-color="#66CC99"
+	    	activeColor="##CCCCCC"/>
+	</view>
+  <view class="text1">
+    <text>一个没有书籍的世界，就如一个没有绿洲的沙漠一样，贫瘠得无法滋生，无法开花结果。
+具有最为风趣的思想的人，才是世界上最快乐的人。没有一个不学无术的人能够有富于趣味的思想，更没有一个不读好书的人，能够有广博的知识，更不必谈他的思想了。</text>
+    <image src="../../image/pen.jpg"></image>
+  </view>
+  <view class="profile" style="opacity:{{1}}">
+    <image class="ima" src='../../image/bg1.jpg' mode="scaleToFill"></image>
+  </view>
+</view>

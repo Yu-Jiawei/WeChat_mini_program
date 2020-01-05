@@ -1,0 +1,16 @@
+<!--index.wxml-->
+
+<view class='swiperBanner'>
+    <swiper indicator-dots='{{indicatorDots}}' autoplay='{{autoplay}}' interval='{{interval}}' duration='{{duration}}' circular='{{circular}}'>
+      <swiper-item  wx:for="{{imgUrls}}" wx:key='key'>
+        <navigator url='{{item.link}}'>
+          <image src="{{item.url}}" class="slide-image" mode="aspectFill"></image>
+        </navigator> 
+      </swiper-item>
+    </swiper>
+  </view>
+<view>
+  <view wx:for="{{notes}}"wx:for-item="item"wx:for-index="index"wx:key="index">
+     <itemCard item="{{item}}"></itemCard>
+   </view>
+</view>

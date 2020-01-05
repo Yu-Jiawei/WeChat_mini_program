@@ -1,0 +1,298 @@
+/* pages/clock/clock.wxss */
+view,
+sroll-view,
+swiper,
+icon,
+text,
+progress,
+button,
+checkbox,
+form,
+input,
+label,
+input,
+picker,
+radio,
+slider,
+switch,
+action-sheet,
+modal,
+toast,
+loading,
+navigator,
+audio,
+image,
+video,
+map,
+
+canvas {
+  box-sizing: border-box;
+}
+
+.hide {
+  display: none!important;
+}
+
+.container,
+input,
+button {
+  font: 28rpx "Helvetica Neue", "Hiragino Sans GB", "Microsoft YaHei", Arial, sans-serif;
+}
+
+.container {
+
+  height: 100%;
+  background-color: #E0EEEE;
+}
+
+.panel {
+  background: #fff;
+  border-radius: 6rpx;
+  padding: 10rpx 20rpx;
+}
+.nodata{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+.nodata_img{
+	display: block;
+	width: 90rpx;
+	height: 90rpx;
+}
+
+.nodata_text{
+	color:#E0EEEE;
+	font-size: 24rpx;
+	padding-left: 20rpx;
+}
+
+/*.container {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  overflow: hidden;
+  background-color: #fff;
+}*/
+.page{
+  height: 100%;
+  background-color: #E0EEEE;
+}
+.timer_main {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex: 2;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+  text-align: center;
+  background-color: #E0EEEE;
+  transition: all .5s;
+  z-index: 1;
+  height:560rpx;
+}
+
+.timer_time-wrap {
+  
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 360rpx;
+  height: 360rpx;
+  text-align: center;
+  transition: all .3s;
+}
+
+.timer_progress {
+  position: absolute;
+  top: 0;
+  width: 360rpx;
+  height: 360rpx;
+  overflow: hidden;
+  transition: all .3s;
+}
+
+.timer_progress_mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border: 3px solid ;
+  opacity: .5;
+  border-radius: 50%;
+}
+
+.timer_left {
+  left: 0;
+}
+
+.timer_right {
+  right: 0;
+}
+
+.timer_circle {
+  position: absolute;
+  top: 0;
+  width: 360rpx;
+  height: 360rpx;
+  border: 3px solid transparent;
+  border-radius: 50%;
+  transition: all .3s;
+}
+
+.timer_circle--left {
+  left: 0;
+  border-left: 6rpx solid #000000;
+  border-bottom: 6rpx solid #000000;
+  transform: rotate(45deg);
+}
+
+.timer_circle--right {
+  right: 0;
+  border-right: 6rpx solid #000000;
+  border-bottom: 6rpx solid #000000;
+  transform: rotate(-45deg);
+}
+
+
+.timer_time {
+  font-size: 80rpx;
+  color: #000000;
+  font-weight: 400;
+  transition: font-size .3s;
+}
+
+.timer_taskName {
+  position: absolute;
+  top: -200rpx;
+  font-size: 28rpx;
+  letter-spacing: 10rpx;
+  color: #FFCCCC;
+}
+
+.timer_done {
+  width: 256rpx;
+  height: 256rpx;
+}
+
+.timer_inputname {
+  position: absolute;
+  bottom: -80rpx;
+  width: 100%;
+  text-align: center;
+  height: 80rpx;
+  padding-left: 20rpx;
+  color: #000000;
+  font-weight: 800;
+}
+
+.timer_footer {
+  width: 100%;
+  background-color: #E0EEEE;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  padding-top: 80rpx;
+  transition: all .3s;
+}
+
+.timer .timer_ctrl {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 48rpx;
+  font-weight:600;
+  color:99FFFF;
+  width: 200rpx;
+  height: 200rpx;
+  margin: 0 40rpx;
+  border-radius: 50%;
+  transition: all .7s;
+  background-color: #87bacd;
+  margin-top:40rpx;
+}
+
+/*runing style*/
+
+.timer--runing .timer_main {
+  flex: 1;
+}
+
+.timer--runing .timer_time {
+  font-size: 90rpx;
+}
+
+.timer--runing .timer_time-wrap {
+  width: 400rpx;
+  height: 400rpx;
+}
+
+.timer--runing .timer_progress {
+  width: 200rpx;
+  height: 400rpx;
+}
+
+.timer--runing .timer_circle {
+  width: 400rpx;
+  height: 400rpx;
+}
+
+.timer--runing .timer_footer {
+  flex: 0;
+  position: absolute;
+  bottom: 0;
+  height:440rpx;
+  width: 100%;
+  z-index: 10;
+}
+
+.timer--runing .timer_ctrl {
+
+  background-color: #87bacd;
+  height:150rpx;
+  width: 150rpx;
+  margin-bottom: 60rpx;
+  border-radius: 50%;
+}
+
+.setting_{
+  height:60rpx;
+  width: 60rpx;
+  background-color:#E0EEEE;
+}
+
+.set_{
+  text-align:center;
+  font-size:30rpx;
+  color:#FF9900;
+    background-color:#E0EEEE;
+}
+
+.content{
+  height: 100rpx;
+  width: 400rpx;
+  border: 1px solid;
+  border-radius: 10rpx;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left:170rpx;
+  margin-top:100rpx;
+  background-color:#f0fcff;
+}
+.content text{
+  font-size: 30rpx;
+}
+
+.bg{
+    top: 0;
+    position: absolute;
+    height:226rpx;
+}

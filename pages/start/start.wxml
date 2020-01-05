@@ -1,0 +1,17 @@
+<!--pages/start/start.wxml-->
+<image class="bg" src="http://img.wxcha.com/file/201808/31/7e1e2e208b.jpg"style="opacity:{{0.5}}"></image>
+<view class="container">
+  <view class="circle">
+    <view class="title">
+    READING
+    </view>
+    <view class="title2">
+    Just Enjoy Yourself
+    </view>
+  </view>
+  <view class="click">
+    <text bindtap="enter">点击开启小程序</text>
+  </view>
+</view>
+
+

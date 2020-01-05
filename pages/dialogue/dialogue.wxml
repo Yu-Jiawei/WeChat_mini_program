@@ -1,0 +1,10 @@
+<!--pages/dialogue/dialogue.wxml-->
+<view><image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1577787571015&di=645aa63045fafae58b32272657f0df16&imgtype=0&src=http%3A%2F%2Fwww.starsdy.com%2Fuploads%2Fallimg%2F181206%2F1-1Q206163446223.jpg" mode="widthFit" class="img"></image>
+<text>\n</text>
+<view class="title">50句惊艳世人的电影台词</view>
+ <view class="divLine"></view>
+</view>
+ <view wx:for="{{notes}}"wx:for-item="item"wx:for-index="index"wx:key="index">
+     <itemCard item="{{item}}"></itemCard>
+   </view>
+

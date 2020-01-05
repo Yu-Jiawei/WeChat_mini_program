@@ -1,0 +1,16 @@
+<!--component/bookcard.wxml-->
+<view bindtap="clickin">
+<wxs module="numberUtil" src="../../utils/util.wxs"></wxs>
+<view class="content">
+  <view class="name">{{item.name}}</view>
+  <view class="author">{{item.author}}</view>
+  <view class="profile">
+    <image class="" mode="scaleToFill" src="{{item.src}}"></image>
+  </view>
+  <view class="score">
+    <image src="../../image/star.png" ></image>
+    <text>{{numberUtil.numberFormat(item.score)}}</text>
+  </view>
+</view>
+</view>
+

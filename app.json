@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/start/start",
+    "pages/recommend/recommend",
+    "pages/about/about",
+    "pages/rec-detail/rec-detail",
+    "pages/note/note",
+    "pages/clock/clock",
+    "pages/setclock/setclock",
+    "pages/logs/logs",
+    "component/itemCard/itemCard",
+    "pages/dialogue/dialogue",
+    "pages/antiquity/antiquity",
+    "pages/aestheticism/aestheticism"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "READING",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#707070",
+    "selectedColor": "#549688",
+    "list": [
+      {
+        "pagePath": "pages/recommend/recommend",
+        "text": "图书推荐",
+        "iconPath": "image/book.png",
+        "selectedIconPath": "image/book.png"
+      },
+      {
+        "pagePath": "pages/clock/clock",
+        "text": "阅读计时",
+        "iconPath": "image/clock.png",
+        "selectedIconPath": "image/clock.png"
+      },
+      {
+        "pagePath": "pages/note/note",
+        "text": "美句分享",
+        "iconPath": "image/note.png",
+        "selectedIconPath": "image/note.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "关于我们",
+        "iconPath": "image/about.png",
+        "selectedIconPath": "image/about.png"
+      }
+    ]
+  },
+
+  "sitemapLocation": "sitemap.json"
+}

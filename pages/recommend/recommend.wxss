@@ -1,0 +1,22 @@
+/* pages/home/home.wxss */
+.page{
+  padding: 10rpx;
+
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  
+}
+.roll{
+  margin-bottom: 20rpx;
+}
+.roll image{
+  width: 100%;
+  height: 100%;
+}
+.book{
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+}

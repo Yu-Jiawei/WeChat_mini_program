@@ -1,0 +1,29 @@
+/* component/itemCard/itemCard.wxss */
+.diary {
+  margin-bottom: 10rpx;
+  font-size: 35rpx;
+  padding: 10px;
+  background: #fafafa;
+  color: rgb(80, 74, 74);
+  height: 270rpx;
+  border-radius:10rpx; 
+}
+
+.write {
+  font-size: 20rpx;
+  margin-top: 20rpx;
+  float: right;
+}
+.favor{
+   
+  width: 50rpx;
+  height: 50rpx;
+  border-radius: 40rpx;
+}
+.support{
+   width: 50rpx;
+  height: 50rpx;
+ border-radius: 150rpx;
+ 
+  
+}
